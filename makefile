@@ -3,8 +3,8 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 # Project files
-SOURCES = main.cpp Route.cpp DeliveryRequest.cpp AddressList.cpp
-HEADERS = Route.h Address.h DeliveryRequest.h AddressList.h
+SOURCES = main.cpp Schedule.cpp Route.cpp DeliveryRequest.cpp AddressList.cpp
+HEADERS = Schedule.h Route.h Address.h DeliveryRequest.h AddressList.h
 OBJECTS = $(SOURCES:.cpp=.o)
 EXECUTABLE = program
 
