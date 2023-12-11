@@ -10,6 +10,15 @@ public:
   bool operator!=(const Address& other) const {
         return x != other.x || y != other.y;
     }
+      bool operator==(const Address& other) const {
+        return x == other.x && y == other.y;
+    }
+  bool operator<(const Address& other) const {
+    if (x != other.x) {
+        return x < other.x;
+    }
+    return y < other.y;
+}
 
 private:
     int x, y;
