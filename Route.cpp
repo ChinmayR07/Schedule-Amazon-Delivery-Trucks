@@ -95,8 +95,12 @@ void Route::createNearestNeighborRoute(const std::vector<DeliveryRequest>& reque
 
     // Clear and update greedyRoute
     greedyRoute.clear();
+    int size=0;
     for (const auto& request : deliveryRequests) {
         greedyRoute.push_back(request.getAddress());
+        size++;
+        if(size==deliveryRequests.size()-1)
+        break;
     }
     Address origin = Address(0,0);
     greedyRoute.push_back(origin);

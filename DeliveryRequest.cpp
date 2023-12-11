@@ -7,7 +7,6 @@ DeliveryRequest::DeliveryRequest() : address(0, 0), isPrime(false), deadline(0) 
 bool DeliveryRequest::isValid() const {
     return deadline != 0; // A non-zero deadline implies a valid request
 }
-// Other constructors and methods...
 
 // Constructor implementation (assuming you have already defined it)
 DeliveryRequest::DeliveryRequest(const Address& address, bool isPrime, int deadline)
