@@ -1,6 +1,7 @@
 # Steps to Compile and Run Code:
 On the terminal just type the following commands:
 make
+
 ./program
 
 This will compile and run the code and will show the routes and schedule of the trucks which is getting generated on the terminal. 
