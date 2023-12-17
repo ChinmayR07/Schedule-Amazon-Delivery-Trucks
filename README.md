@@ -1,4 +1,4 @@
-# Amazon Delivery Truck Scheduling and Route Optimization
+# Scheduling Amazon Delivery Trucks
 
 This project focuses on optimizing delivery truck routes for Amazon's logistics network. It employs sophisticated algorithms to schedule deliveries and optimize routes for multiple trucks, addressing the complexities of the Multiple Traveling Salesman Problem (mTSP). The code base is written in C++ for backend processing and Python for data visualization.
 
